@@ -11,6 +11,7 @@
     <color name="colorAppLineGold">#8D6743</color>
     <color name="colorAppBlack">#000000</color>
     <color name="colorFBBlue">#5465A0</color>
+    <color name="colorGreen">#5cc119</color>
 
     <!-- Screens background color-->
     <color name="bg_screen1">#f64c73</color>
