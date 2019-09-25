@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OKA</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Sign In</string>
+
+    <string name="slide_1_title">Pick The Meal</string>
+    <string name="slide_1_desc">Easily find the best type of food you are craving.</string>
+
+    <string name="slide_2_title">Track your Meal</string>
+    <string name="slide_2_desc">View status for your meal, whether it is preparing, dispatched or delivered.</string>
+
+    <string name="slide_3_title">Get the meal delivered.</string>
+    <string name="slide_3_desc">Open up your door while our deliveryman reaches in quick time.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

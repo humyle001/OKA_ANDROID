@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="180dp"
+    android:orientation="horizontal"
+    android:background="@color/colorAppWhite">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/cartItemName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Item Name"
+        android:textColor="@color/colorAppBlack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cartItemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Item Description"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:padding="10dp"
+
+    >
+
+    <TextView
+        android:id="@+id/cartItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center_vertical"
+        android:text="$ 0.00"
+        android:textColor="@color/colorAppRed"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:scaleType="centerInside"
+        android:src="@drawable/minus"
+        />
+
+    <TextView
+        android:id="@+id/cartItemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:src="@drawable/plus"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

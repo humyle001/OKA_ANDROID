@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="oka.codedieux.com.restaurant.activities.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_login_background"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_input_background"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_input_background"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/remmemberme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Remember me"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="8dp"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:background="@drawable/rounded_btn_background"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorAppWhite"
+            android:layout_weight="1"
+            android:text="Sign In" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorAppWhite"
+            android:background="@drawable/rounded_btn_fb_background"
+            android:layout_weight="1"
+            android:text="Sign In With Facebook" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="126dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_white" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_landing"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="250dp"
+    android:background="@color/colorAppWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="85dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rounded_img_background"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+
+            android:id="@+id/img_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/res_bg" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/rounded_img_background"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:id="@+id/restaurantImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/oka_black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/restaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:text="Name"
+        android:textColor="@color/colorAppDarkRed"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignStart="@+id/restaurantName"
+        android:layout_marginBottom="11dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/start_icon" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/start_icon" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/start_icon" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/start_icon" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/start_icon" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout3"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/linearLayout3"
+        android:text="(23)"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignEnd="@+id/linearLayout4"
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/heart_icon" />
+
+
+</RelativeLayout>
