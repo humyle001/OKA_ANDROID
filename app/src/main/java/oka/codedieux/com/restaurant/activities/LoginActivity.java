@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private Context context;
 //    private User newUser;
-//test commet
+//test commet hello
     private View layoutLogin,iota_button;
     ProgressDialog progressDialog;
     String loginMessage;
